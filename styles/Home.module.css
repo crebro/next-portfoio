@@ -4,3 +4,34 @@
   right: 0;
   margin: 10px;
 }
+
+.parallelogram {
+  clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+}
+
+.bottomSlant {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.topSlant {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+}
+
+@media only screen and (min-width: 768px) {
+  .parallelogram {
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+  }
+
+  .topSlant {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .parallelogram {
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+  }
+  .bottomSlant {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  }
+}

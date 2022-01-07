@@ -1,14 +1,15 @@
 import Link from 'next/link'
 import React from 'react'
 import DesignInspirations from './widgets/DesignInspirations'
+import homeStyles from "../../../styles/Home.module.css"
 
 function Footer() {
     return (
-        <div style={{clipPath: "polygon(0 10%, 100% 0, 100% 100%, 0 100%)"}} className='py-20 bg-[#EDEAA3] flex items-center justify-center'>
+        <div className={`${homeStyles['topSlant']} py-20 bg-[#EDEAA3] flex items-center justify-center`}>
             <div className='w-[80%] xl:w-[55%] flex-col items-center justify-center'> 
                 <div className='text-3xl font-extrabold'> Links </div>
                 <div> Get in touch with me, here are some links to my socials </div>
-                <div className='flex mt-4 justify-around'>
+                <div className='flex flex-wrap mt-4 justify-around'>
                     <div>
                         <Link href={"https://www.twitch.tv/kodingdesires"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Twitch </div> </a></Link> <br/>
                         <Link href={"https://www.youtube.com/channel/UCliXIi69MBphGgsxN693p0g"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Youtube </div> </a></Link> <br/>

@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa"
 
 function Hero() {
     return (
-        <div className='w-[80%] xl:w-[55%] flex justify-between mt-10 items-center'>
+        <div className='w-[80%] xl:w-[55%] flex flex-col-reverse lg:flex-row justify-between mt-10 lg:items-center'>
             <div>
                 <div className='font-extrabold text-5xl'> Duwal Kreation</div>
                 <div className='font-semibold text-lg'> Software Developer <span className='font-normal'> and </span> Content Creator</div>
@@ -17,7 +17,7 @@ function Hero() {
                     <div className='mx-2 transition duration-150 hover:scale-110 cursor-pointer'> <FaTwitter size={30} /></div>
                 </div>
             </div>
-            <div className='min-h-[125px] min-w-[125px] h-[125px] w-[125px] lg:h-[140px] lg:w-[140px] xl:h-[150px] xl:w-[150px]'>
+            <div className='my-2 min-h-[125px] min-w-[125px] h-[125px] w-[125px] lg:h-[140px] lg:w-[140px] xl:h-[150px] xl:w-[150px]'>
                 <img className='hover:cursor-pointer rounded-2xl aspect-square border-white transition duration-150 hover:scale-110 hover:-translate-y-3' src="https://avatars.githubusercontent.com/crebro" />
             </div>
         </div>
