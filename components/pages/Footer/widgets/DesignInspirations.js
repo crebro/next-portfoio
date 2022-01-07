@@ -12,8 +12,8 @@ function DesignInspirations() {
             </div>
             {
                 showInspirations ? 
-                <> <span className='text-xs'> <Link href="saviomartin.com" > saviomartin.com </Link></span>
-                <span className='text-xs'> <Link href="leerob.io" > leerob.io </Link></span> </> : ""
+                <> <span className='text-xs'> <Link href="https://www.saviomartin.com" ><a target="_blank" rel="noreferrer"> saviomartin.com </a></Link></span>
+                <span className='text-xs'> <Link href="https://www.leerob.io" ><a target="_blank" rel="noreferrer"> leerob.io </a></Link></span> </> : ""
             }
 
         </div>

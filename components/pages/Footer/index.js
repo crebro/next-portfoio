@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import DesignInspirations from './widgets/DesignInspirations'
 
@@ -9,15 +10,17 @@ function Footer() {
                 <div> Get in touch with me, here are some links to my socials </div>
                 <div className='flex mt-4 justify-around'>
                     <div>
-                        <div className='text-sm my-2 underline-animation'> Twitch </div> <br />
-                        <div className='text-sm my-2 underline-animation'> Youtube </div> <br />
-                        <div className='text-sm my-2 underline-animation'> Twitter </div> <br />
+                        <Link href={"https://www.twitch.tv/kodingdesires"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Twitch </div> </a></Link> <br/>
+                        <Link href={"https://www.youtube.com/channel/UCliXIi69MBphGgsxN693p0g"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Youtube </div> </a></Link> <br/>
+                        <Link href={"https://twitter.com/duwalkreation"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Twitter </div> </a></Link> <br/>
                         <div className='text-sm my-2 underline-animation'> Blogs Coming soon </div> <br />
                     </div>
                     <div>
-                        <div className='text-sm my-2 underline-animation'> Github </div> <br/>
-                        <div className='text-sm my-2 underline-animation'> Email </div> <br/>
-                        <div className='text-sm my-2 underline-animation'> Support ME </div> <br/>
+
+                        <Link href={"https://github.com/crebro"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Github </div> </a></Link> <br/>
+                        <Link href={"mailto:creationduwal@gmail.com"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Email </div> </a></Link> <br/>
+                        <Link href={"https://ko-fi.com/duwalkreation"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Support ME </div> </a></Link> <br/>
+                        <Link href={"https://github.com/crebro/next-portfolio"}><a target={"_blank"} rel={'noreferrer'}> <div className='text-sm my-2 underline-animation'> Get this Template </div> </a></Link> <br/>
                     </div>
                     <div>
                         <div className='text-sm my-2 underline-animation'> Get My C.V. </div>
