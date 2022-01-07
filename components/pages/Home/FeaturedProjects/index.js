@@ -15,8 +15,8 @@ function FeaturedProjects() {
                     <ProjectItem link={'https://github.com/crebro/discoforum'} image={'/assets/images/projects/discoforum.JPG'} name={'DiscoForum Bot'} description={'Answer and Ask Questions on a discord server!'} />
                     <ProjectItem link={'https://github.com/crebro/brainstorm'} image={'/assets/images/projects/brainstorm.JPG'} name={'Brainstorm App'} description={'Play a bunch of mind games and improve your skills'} />
                 </div>
-                <Link href="https://github.com/crebro">
-                    <a target="_blank" ref="noreferrer">
+                <Link href={"https://github.com/crebro"}>
+                    <a target="_blank" rel="noreferrer">
                         <div className='flex items-center mt-4'>
                             <div className='text-sm underline-animation hover:text-gray-700 transition duration-150'> More Projects </div> &nbsp; <span> <AiOutlineArrowRight /> </span> 
                         </div>
