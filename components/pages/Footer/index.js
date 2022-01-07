@@ -30,7 +30,7 @@ function Footer() {
                 <div className='w-1/2 mt-4 bg-gray-700 h-0.5' />
                 <div className='text-sm mt-4'>
                     Built by <span className='underline'> Kreation Duwal </span> using <span className='underline'> Next.js </span> <br/>
-                    <div className='font-bold'> Feel free to copy and change </div>
+                    <Link href={"https://github.com/crebro/next-portfolio"}><a target={"_blank"} rel={'noreferrer'}> <div className='font-bold'> Feel free to copy and change </div> </a></Link> <br/>
                 </div>
 
                 <div className='mt-4'>

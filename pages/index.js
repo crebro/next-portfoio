@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Footer from "../components/pages/Footer";
 import FeaturedProjects from "../components/pages/Home/FeaturedProjects";
 import IntroductionSection from "../components/pages/Home/IntroductionSection";
@@ -7,6 +8,9 @@ import styles from "../styles/Home.module.css"
 export default function Home() {
   return (
     <div className="app"> 
+      <Head>
+        <title>Kreation Duwal | Student, Developer and Content Creator</title>
+      </Head>
       <IntroductionSection />
       <FeaturedProjects />
       <SkillSet />
