@@ -10,6 +10,7 @@ export default function Home() {
     <div className="app"> 
       <Head>
         <title>Kreation Duwal | Student, Developer and Content Creator</title>
+        <link rel="shotcut icon" type="image/jpg" href="https://avatars.githubusercontent.com/crebro" />
       </Head>
       <IntroductionSection />
       <FeaturedProjects />
