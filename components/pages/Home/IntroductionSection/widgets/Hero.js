@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 function Hero() {
     return (
-        <div className='w-[80%] xl:w-[55%] flex flex-col-reverse lg:flex-row justify-between mt-10 lg:items-center'>
+        <div className='w-[80%] xl:w-[55%] pt-10 pb-24 flex flex-col-reverse lg:flex-row justify-between mt-10 lg:items-center'>
             <div>
                 <div className='font-extrabold text-5xl'> Duwal Kreation</div>
                 <div className='font-semibold text-lg'> Software Developer <span className='font-normal'> and </span> Content Creator</div>
