@@ -6,11 +6,11 @@ import Link from 'next/link';
 
 function FeaturedProjects() {
     return (
-        <div className={`${homeStyles['parallelogram']} py-24 bg-[#EDEAA3] -translate-y-[4.5rem] flex items-center justify-center`}>
+        <div className={`${homeStyles['parallelogram']} py-32 bg-[#EDEAA3] -translate-y-[70px] flex items-center justify-center`}>
             <div className='w-[80%] xl:w-[55%] flex-col justify-between items-center'> 
                 <div className='text-3xl font-extrabold'> Featured Works </div>
                 <div> Here are some projects of mine that you may want to view</div>
-                <div className='mt-4 flex flex-col md:flex-row justify-center items-center'>
+                <div className='w-[100%] xl:w-[90%] mt-4 flex flex-col md:flex-row justify-center items-center'>
                     <ProjectItem link={'https://github.com/crebro/chesspgn-gif'} image={'/assets/images/projects/pgntogif.JPG'} name={'Pgn to Gif Converter'} description={'Convert the pgn of your chess games into gif!'} />
                     <ProjectItem link={'https://github.com/crebro/discoforum'} image={'/assets/images/projects/discoforum.JPG'} name={'DiscoForum Bot'} description={'Answer and Ask Questions on a discord server!'} />
                     <ProjectItem link={'https://github.com/crebro/brainstorm'} image={'/assets/images/projects/brainstorm.JPG'} name={'Brainstorm App'} description={'Play a bunch of mind games and improve your skills'} />
