@@ -3,7 +3,7 @@ import React from 'react'
 function SkillSet() {
 
     return (
-        <div className='flex items-center justify-center w-screen -translate-y-10'>
+        <div data-aos={"fade-up"} className='flex items-center justify-center w-screen -translate-y-10'>
             <div className='w-[80%] xl:w-[55%] '>
                 <div className='justify-center flex-col mt-10 items-center text-center'>
                     <div className='text-3xl font-extrabold'> My SkillSet</div>

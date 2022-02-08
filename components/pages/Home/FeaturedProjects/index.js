@@ -7,7 +7,7 @@ import Link from 'next/link';
 function FeaturedProjects() {
     return (
         <div className={`${homeStyles['parallelogram']} py-32 bg-[#EDEAA3] -translate-y-[70px] flex items-center justify-center`}>
-            <div className='w-[80%] xl:w-[55%] flex-col justify-between items-center'> 
+            <div data-aos={'fade-up'}  className='w-[80%] xl:w-[55%] flex-col justify-between items-center'> 
                 <div className='text-3xl font-extrabold'> Featured Works </div>
                 <div> Here are some projects of mine that you may want to view</div>
                 <div className='w-[100%] xl:w-[90%] mt-4 flex flex-col md:flex-row justify-center items-center'>

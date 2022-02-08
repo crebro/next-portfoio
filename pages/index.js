@@ -1,4 +1,7 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Head from "next/head";
+import { useEffect } from "react";
 import Footer from "../components/pages/Footer";
 import FeaturedProjects from "../components/pages/Home/FeaturedProjects";
 import IntroductionSection from "../components/pages/Home/IntroductionSection";
@@ -6,6 +9,10 @@ import SkillSet from "../components/pages/Home/SkillSet";
 import styles from "../styles/Home.module.css"
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init();
+  }, [])
+
   return (
     <div className="app"> 
       <Head>

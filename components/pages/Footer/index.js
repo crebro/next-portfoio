@@ -5,7 +5,7 @@ import homeStyles from "../../../styles/Home.module.css"
 
 function Footer() {
     return (
-        <div className={`${homeStyles['topSlant']} pt-40 pb-28 bg-[#EDEAA3] flex items-center justify-center`}>
+        <div data-aos={'fade-up'} className={`${homeStyles['topSlant']} pt-40 pb-28 bg-[#EDEAA3] flex items-center justify-center`}>
             <div className='w-[80%] xl:w-[55%] flex-col items-center justify-center'> 
                 <div className='text-3xl font-extrabold'> Links </div>
                 <div> Get in touch with me, here are some links to my socials </div>
